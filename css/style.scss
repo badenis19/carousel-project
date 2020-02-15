@@ -15,7 +15,18 @@ h1 {
     height: 30%;
 }
 
-.bottom {
+.cards-container {
     border: 1px solid black;
     height: 70%;
+    display: flex;
+}
+
+// ========== CARDS ==============
+
+.card {
+    border: 1px solid red;
+    width: 20%;
+    display: flex;
+    margin-right: 5px;
+    background-color: red;
 }
