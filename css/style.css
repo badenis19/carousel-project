@@ -27,14 +27,12 @@
 }
 
 .main-container .container {
-  border: 1px solid black;
   height: 100%;
   width: 95%;
   margin: 0 auto;
 }
 
 .main-container .container .top {
-  border: 1px solid black;
   height: 20%;
   width: 100%;
   display: -webkit-box;
@@ -61,24 +59,40 @@
 }
 
 .main-container .container .cards-container {
-  border: 1px solid black;
   height: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .main-container .container .card {
   margin-right: 5px;
-  background-color: red;
 }
 
 .main-container .container .card img {
-  width: 100%;
+  width: 233px;
   height: 155px;
 }
 
 .main-container .container .card p {
   margin: 0;
+  margin-bottom: 8px;
+}
+
+.main-container .container .card .title {
+  text-transform: uppercase;
+}
+
+.main-container .container .card .descr {
+  font-weight: bolder;
+  font-size: 22px;
+  color: #464545;
+}
+
+.main-container .container .card .price {
+  font-weight: lighter;
+  color: gray;
 }
 /*# sourceMappingURL=style.css.map */

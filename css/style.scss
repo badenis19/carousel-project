@@ -16,13 +16,11 @@
     }
 
     .container {
-        border: 1px solid black;
         height: 100%;
         width: 95%;
         margin: 0 auto;
         
         .top {
-            border: 1px solid black;
             height: 20%;
             width: 100%;
             display: flex;
@@ -45,26 +43,40 @@
         }
         
         .cards-container {
-            border: 1px solid black;
             height: 80%;
             display: flex;
+            width: 100%;
+            overflow-x: hidden;
         }
         
         // ========== CARDS ==============
         
         .card {
-            // border: 1px solid red;
-            // display: flex;
             margin-right: 5px;
-            background-color: red;
             
             img {
-                width: 100%;
+                width: 233px;
                 height: 155px;
             }
             
             p {
                 margin: 0;
+                margin-bottom: 8px;
+            }
+
+            .title {
+                text-transform: uppercase;
+            }
+
+            .descr {
+                font-weight: bolder;
+                font-size: 22px;
+                color: #464545;
+            }
+
+            .price {
+                font-weight: lighter;
+                color: gray;
             }
         }
     }
